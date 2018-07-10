@@ -42,7 +42,7 @@ public class SearchHistoryActivity extends AppCompatActivity {
         // Add search to search history
         tvSearchHistory.append(searchText);
         tvSearchHistory.append("\n");
-        
+
         // Record previous searches for sharing purposes
         previousSearches.add(searchText);
     }
